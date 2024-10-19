@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-MENÜ</title>
+    <!-- Boostrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- BAŞLIK -->
+    <h1 class="heading">Menümüz</h1>
+    <!-- BUTTONLAR -->
+    <div id=buttons class="d-flex justify-content-center gap-3 my-4">
+        <div>
+            <label for="all">Hepsi</label>
+            <input type="radio" name="cat" id="all" checked />
+        </div>
+        <div>
+            <label class="btn btn-outline-dark" for="breakfast">Kahvaltı</label>
+            <input type="radio" name="cat" id="breakfast">
+        </div>
+        <div>
+            <label class="btn btn-outline-dark" for="lunch">Öğle Yemeği</label>
+            <input type="radio" name="cat" id="lunch">
+        </div>
+        <div>
+            <label class="btn btn-outline-dark" for="shakes">içecekler</label>
+            <input type="radio" name="cat" id="shakes">
+        </div>
+    </div>
+
+    <!-- MENÜ LİSTESİ -->
+    <div id="menu-list">
+        <!-- kard -->
+        <!-- <a 
+           href="#" 
+           id="card" 
+           class="d-flex flex-column flex-md-row text-dark gap-3 text-decoration-none">
+
+            <img class="rounded shadow img-fluid" src="./image/item-2.jpeg" />
+
+            <div>
+                <div class="d-flex justify-content-between">
+                    <h5>Diner ikili hamburger</h5>
+                    <p class="text-success fw-bold">419.70𝕥</p>
+                </div>
+                <p class="">
+                    Diner usulü hazırlanan ikili hamburgerimiz, enfes lezzeti ve doyurucu yapısıyla lunchniz için
+                    mükemmel bir tercih!
+                </p>
+            </div>
+        </a> -->
+
+    </div>
+
+
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
