@@ -7,6 +7,6 @@ Proje, bir restoranın menüsünü görüntülemek için basit ve kullanıcı do
 
 # Kullanılan Teknolojiler
 
-HTML,CSS, JavaScripts
+HTML,CSS, JavaScript
 
 # Ekran Gif
